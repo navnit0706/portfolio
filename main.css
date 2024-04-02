@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+/* -------------------Header------------------ */
+
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar{
+    display: flex;
+    margin-top: 30px;
+    height: 57px;
+    width: 1200px;
+    border-radius: 50px;
+    background-color: #262626;
+    justify-content: center;
+    gap: 141px;
+}
+.navbar > h4{
+    background-color: transparent;
+    margin-top: 12px;
+    font-size: 21px;
+    color : #FCB415;
+}
+
+
+/* ------------------------main section--------------------------------- */
+
+.mainsection{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.mainsection > div > img{
+    max-width: 58%;
+    margin-left: 163px;
+}
+.mainsection > div > h1{
+    font-size: 60px;
+    margin-bottom: -40px;
+    color: #FCB415;
+}
+.mainsection > div > span{
+    margin-left: 10px;
+    color: white;
+    font-size: 60px;
+}
+.mainsection > .name{
+    margin-top: 100px;
+}
+.mainsection > div > h5{
+    margin-left: 76px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.mainsection > .name > img{
+    max-width: 58%;
+    margin-left: 66px;
+    margin-top: 35px;
+
+}
+
+
+/* Section1 css from here */
+
+
+
+.section1{
+    padding-bottom: 370px!important;
+}
+.section1 > h4{
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    padding-left: 639px;
+}
+
+.section1 > span{
+    font-size: 50px;
+    color: #FCB415;
+    font-weight: 700;
+}
+
+.section1 > .pi{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    padding-left: 170px;
+}
+.overflow{
+    width: auto;
+    overflow: hidden;
+    clear: both;
+}
+.details {
+    width: 45%!important;
+    float: left;
+   
+}
+.details h4{
+    font-size: 28px;
+    color: #FCB415;
+    font-weight: 400;
+    padding-left: 170px;
+}
+.details spam{
+    color: white!important;
+}
+
+/* section2 css from here  */
+
+
+
+.section2 > h4{
+    display: inline-block;
+    font-size: 50px;
+    color: #FCB415;
+    font-weight: 700;
+    padding-left: 629px;
+}
+.section2 spam{
+    color: white!important;
+}
+.section2 > .skill{
+    display: flex;
+    justify-content: center;
+}
+.section2 > .skill > img{
+    padding-top: 55px;
+    max-width: 1130px;
+}
+
+
+
+
+
+
+/* SECTION3 CSS START FROM HERE  */
+
+
+
+
+.section3 h4{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    padding-left: 440px;
+    margin-top: 120px;
+}
+.section3 span{
+    color: #FCB415!important;
+}
+
+
+
+
+/* SECTION4 CSS START FROM HERE  */
+
+
+
+.section4 > .left {
+    width: 45%!important;
+    float: left;
+    padding-left: 196px;
+}
+.section4 > .left > .resometa > .up{
+    padding-top: 40px;
+    display: flex;
+}
+.section4 > .left > .resometa > .up > img{
+    max-width: 62px;
+}
+.section4 > .left >.resometa > .up >.reso{
+    display: inline-block;
+    background-color: #262626;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+}
+.section4 > .left > .resometa > h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    padding-left: 102px;
+    padding-top: 24px;
+}
+
+
+
+/* section 5 css start from here  */
+
+
+.section5{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 25px;
+    /* width: 800px; */
+}
+.section2 > .list > h4{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
